@@ -1,0 +1,340 @@
+.main-container {
+  display: flex;
+  width: full;
+  height: full;
+  background-color: aliceblue;
+}
+.container1 {
+  width: ;
+  height: ;
+  background-color: ;
+  display: ;
+}
+.create-card {
+  background-color: #fdf6ec;
+  border-radius: 16px;
+  padding: 20px;
+  width: 120px;
+  font-family: 'Arial', sans-serif;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+}
+
+.create-card p {
+  font-size: 18px;
+  color: #333;
+  margin: 0;
+  line-height: 1.4;
+}
+.create-box1 strong {
+  color: #6b4eff;
+}
+
+.create-post {
+  background-color: #fecd4d;
+  color: #000;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 9999px;
+  font-weight: bold; 
+}
+.ai-content-card {
+  background-color: #fcd859;
+  padding: 20px;
+  border-radius: 16px;
+  width: 120px;
+  font-family: 'Arial', sans-serif;
+  color: #1f1f1f;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.ai-content-card h3 {
+  font-size: 1.1rem;
+  font-weight: bold;
+  line-height: 1.4;
+  color: #2b2b2b;
+}
+.user-bubble,
+.ai-bubble {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  border-radius: 14px;
+  padding: 12px 14px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.user-bubble {
+  background-color: #ffffff;
+}
+
+.ai-bubble {
+  background-color: #f2f2f2;
+}
+
+.user-bubble p,
+.ai-bubble p {
+  margin: 0;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: #333;
+}
+
+.ai-bubble p {
+  color: #555;
+  font-size: 0.75rem;
+}
+
+.emoji {
+  font-size: 0.9rem;
+  flex-shrink: 0;
+}
+.button {
+  background-color: #e5b940;
+}
+.container2 {
+  width: ;
+  height: ;
+  background-color: ;
+  display: ;
+}
+
+.container3 {
+  width: ;
+  height: ;
+  background-color: ;
+  display: ;
+}
+  .socialmedia-box {
+    background-color: #6b4eff; /* Purple background */
+    color: white;
+    padding: 30px;
+    border-radius: 16px;
+    width: 300px;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    align-self: center;
+  }
+  
+  .socialmedia-card h2 {
+    font-size: 30px;
+    margin-bottom: 12px;
+    line-height: 1.4;
+  }
+.socialmedia-card h3 {
+    font-style: italic;
+}
+  
+  .socialmedia-card h2 span {
+    font-weight: bold;
+    color: #fecd4d; /* Highlight '10x Faster' in yellow */
+  }
+  
+  .stars {
+    font-size: 20px;
+    margin-bottom: 8px;
+    letter-spacing: 3px;
+    color: #e5b940;
+  }
+  
+  .review-text {
+    font-size: 14px;
+    color: #f0eefe;
+  }
+  .manage-card {
+    color: #f9f9fb;
+    display: flex;
+    padding: 10px;
+    flex-direction:column;
+    width: 130px;
+    height: 120px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    border-radius: 16px;
+    
+  }
+  .manage-card p {
+color: #000;
+font-weight:bold;
+  }
+  .insta-bubble {
+    background-color: #f0eefe;
+    width: 50px;
+    border-radius: 20px;
+      }
+      .x-bubble{
+        background-color: #f0eefe;
+    width: 50px;
+    border-radius: 20px;
+      }
+      .emoji-circle {
+        background-color: #e5b940;
+        border-radius:50;
+      }
+    .emoji-circle1 {
+      background-color: #e5b940;
+        border-radius:50;
+      }
+  .maintain-card {
+    background-color: #e5b940 ;
+    height: 160px;
+    width: 140px;
+    border-radius: 10%;
+  }
+  .maintain-bubble {
+    background-color: #6b4eff;
+    height: 70px;
+    width: 140px;
+    align-items: center;
+    border-radius: 5%;
+  }
+  .emoji-row {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+  }
+  .maintain-card p {
+    font-size: 25px;
+  }
+  .maintain-card h1 {
+    font-size: 13px;
+    color: #f0eefe;
+  }
+  .emoji {
+    background-color: white;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+  }
+  .schedule-card {
+    background-color: #f1edff;
+    border-radius: 16px;
+    padding: 20px;
+    width: 100px;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+  }
+  
+  .schedule-card h3 {
+    font-size: 18px;
+    margin-bottom: 16px;
+    line-height: 1.4;
+  }
+  
+  .bar-chart {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 100px;
+    margin-bottom: 14px;
+  }
+  
+  .bar {
+    width: 20%;
+    background-color: #ccc;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 10px;
+    color: #444;
+    display: flex;
+    flex-direction: column-reverse;
+    padding-top: 5px;
+  }
+  
+  .bar.active {
+    background-color: #8f59ff;
+    color: white;
+  }
+  
+  .description {
+    font-size: 12px;
+    color: #666;
+    line-height: 1.4;
+  }
+  .container4 {
+    width: ;
+  height: ;
+  background-color: ;
+  display: ;
+  }
+  .faster-box {
+
+    display: flex;
+    padding: 15px;
+    flex-direction:column;
+    width: 120px;
+    height: 165px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    border-radius: 16px;
+    background-color: #f0eefe; 
+  }
+  .faster-box h1 {
+  font-weight: bold;
+  color: #000;
+  }
+  .icon-row {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+  }
+  
+  .icon-circle {
+    background-color: white;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+  }
+  .growth-card {
+    background-color: #6c5ce7;
+    color: white;
+    grid-column: 3 / 4;
+    grid-row: 3 / 4;
+    border-radius: 12px;
+    padding: 20px;
+}
+
+.growth-card h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.stats-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.follower-count {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.label {
+    font-size: 12px;
+}
+
+.arrow-icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #ffc107;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
+    margin-top: 5px;
+}  
